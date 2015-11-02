@@ -1,5 +1,5 @@
 var randomInt = function(min, max) {
-    if (!isInteger(min) || !isInt(max))
+    if (!isInteger(min) || !isInteger(max))
         throw Error;
     if (min >= max)
         throw Error;

@@ -1,7 +1,7 @@
-#Random-Range
+#Rand-Range
 Get a random number (integer or float) from a given range.
 
 #Install
 ```
-$ npm install random-range
+$ npm install rand-range
 ```

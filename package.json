@@ -1,6 +1,6 @@
 {
-  "name": "random-range",
-  "version": "1.0.0",
+  "name": "rand-range",
+  "version": "1.0.1",
   "description": "get a random number in a range",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/walidsa3d/random-range.git"
+    "url": "https://github.com/walidsa3d/rand-range.git"
   },
   "bugs": {
-    "url": "https://github.com/walidsa3d/random-range/issues"
+    "url": "https://github.com/walidsa3d/rand-range/issues"
   },
   "engines": {
     "node": ">= 0.8.0"
