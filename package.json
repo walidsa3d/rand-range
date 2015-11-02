@@ -1,0 +1,28 @@
+{
+  "name": "random-range",
+  "version": "1.0.0",
+  "description": "get a random number in a range",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/walidsa3d/random-range.git"
+  },
+  "bugs": {
+    "url": "https://github.com/walidsa3d/random-range/issues"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": [
+    "random",
+    "number",
+    "range",
+    "min",
+    "max"
+  ],
+  "author": "Walid Saad",
+  "license": "MIT"
+}
