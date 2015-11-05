@@ -1,32 +1,20 @@
-var randomInt = function(min, max) {
-    if (!isInteger(min) || !isInteger(max))
-        throw Error;
-    if (min >= max)
-        throw Error;
+var is = require('commonchecks')
+
+module.exports = {
+  randomInt: function (min, max) {
+    if (!is.Integer(min) || !is.Integer(max))
+      throw Error
+    else if (min >= max)
+      throw Error
     else
-        return Math.floor(Math.random() * (max - min + 1) + min);
-};
-
-var randomFloat = function(min, max) {
-    if (!isNumber(min) || !isNumber(max))
-        throw Error;
-    if (min >= max)
-        throw Error;
+      return Math.floor(Math.random() * (max - min + 1) + min)
+  },
+  randomFloat: function (min, max) {
+    if (!is.Number(min) || !is.Number(max))
+      throw Error
+    else if (min >= max)
+      throw Error
     else
-        return Math.random() * (max - min) + min;
-};
-
-function isInteger(n) {
-    return Number(n) === n && n % 1 === 0;
+      return Math.random() * (max - min) + min
+  }
 }
-
-function isFloat(n) {
-    return n === Number(n) && n % 1 !== 0;
-}
-
-function isNumber(n) {
-    return typeof n === 'number';
-}
-
-module.exports.randomInt = randomInt;
-module.exports.randomFloat = randomFloat;

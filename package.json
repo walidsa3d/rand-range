@@ -24,5 +24,18 @@
     "max"
   ],
   "author": "Walid Saad",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "commonchecks": "^2.0.0"
+  },
+  "devDependencies": {
+      "chai": "~1.10.0",
+      "grunt-contrib-watch": "~0.5.3",
+      "grunt-bump": "^0.6.0",
+      "grunt": "~0.4.1",
+      "grunt-mocha-cli": "~1.1.0",
+      "grunt-complexity": "~0.1.3",
+      "load-grunt-tasks": "^3.3.0",
+      "grunt-cli": "~0.1.9"
+    }
 }
